@@ -9,17 +9,17 @@
 <h1 align="center"></h1>
 
 <p align="center">
-  <img alt="Github top language" src="https://img.shields.io/github/languages/top/agostinhomarcia/diety?color=4266f5">
+  <img alt="Github top language" src="https://img.shields.io/github/languages/top/agostinhomarcia/fortune-cookie?color=dd7b22">
 
-  <img alt="Github language count" src="https://img.shields.io/github/languages/count/agostinhomarcia/diety?color=4266f5">
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/agostinhomarcia/fortune-cookie?color=dd7b22">
 
-  <img alt="License" src="https://img.shields.io/github/license/agostinhomarcia/diety?color=4266f5">
+  <img alt="License" src="https://img.shields.io/github/license/agostinhomarcia/fortune-cookie?color=dd7b22">
 
-   <img alt="Github issues" src="https://img.shields.io/github/issues/agostinhomarcia/diety?color=4266f5" />
+   <img alt="Github issues" src="https://img.shields.io/github/issues/agostinhomarcia/fortune-cookie?color=dd7b22" />
 
-   <img alt="Github forks" src="https://img.shields.io/github/forks/agostinhomarcia/diety?color=4266f5" />
+   <img alt="Github forks" src="https://img.shields.io/github/forks/agostinhomarcia/fortune-cookie?color=dd7b22" />
 
-   <img alt="Github stars" src="https://img.shields.io/github/stars/agostinhomarcia/diety?color=4266f5" /> 
+   <img alt="Github stars" src="https://img.shields.io/github/stars/agostinhomarcia/fortune-cookie?color=dd7b22" /> 
 </p>
 
 <p align="center">
@@ -44,24 +44,15 @@
   
 </p>
 
-<p align="center">
-   Desenvolver uma aplicação de cadastro de refeições, que contém as seguintes funcionalidades:
+<p align="left">
+ Esse projeto é  app simples que simula um "biscoito da sorte". Quando o usuário clica no botão "Quebrar Biscoito", uma frase motivacional é exibida, e a imagem do biscoito se abre. Há também um botão "Reiniciar biscoito" para restaurar a imagem do biscoito fechado e limpar a frase exibida. Ele utiliza React Native para criar a interface do aplicativo, com a exibição de imagens, texto e botões.
 
-- Adicionar uma nova refeição
-- Editar uma refeição
-- Remover uma refeição da listagem
-- Mostrar as estatísticas do progresso da dieta
-- Navegação entre telas em pilha
-- Armazenamento local das refeições
+O estado do aplicativo é gerenciado por meio do React's useState, que controla a exibição da imagem do biscoito e a frase motivacional exibida. As frases estão pré-definidas em uma lista e são exibidas aleatoriamente quando o biscoito é "quebrado".
 
-Fixando conhecimentos nos conceitos:
+Os estilos são definidos usando o StyleSheet do React Native para garantir a formatação correta dos elementos na tela. A interface inclui a imagem do biscoito, o texto da frase, e dois botões estilizados para as ações de "Quebrar Biscoito" e "Reiniciar biscoito".
 
-- Estados
-- Imutabilidade do estado
-- Listas e chaves no React Native
-- Propriedades
-- Componentização
-- Parâmetros de navegação</p>
+É um projeto simples, mas que demonstra como criar interações básicas com o usuário em um aplicativo móvel usando React Native.
+
 </p>
 
 ## :sparkles: Features
@@ -76,6 +67,7 @@ The following tools were used in this project:
 
 - [React-Native](https://reactnative.dev/docs/getting-started)
 - [React.js](https://legacy.reactjs.org/)
+- [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
 - [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 
 ## :white_check_mark: Requirements
@@ -86,14 +78,14 @@ Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) an
 
 ```bash
 # Clone this project
-$ git clone https://github.com/agostinhomarcia/diety.git
+$ git clone https://github.com/agostinhomarcia/fortune-cookie.git
 # Access
-$ cd diety
+$ cd fortune-cookie
 # Install dependencies
-$ yarn or npm install
+$ expo install
 # Run the project
-$ yarn start or npm start
-# The server will initialize in the <http://localhost:3000>
+$ npx expo start
+# The server will initialize in the <exp://192.168.15.2:8081>
 ```
 
 ## :memo: License
